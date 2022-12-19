@@ -1,7 +1,7 @@
 .catalog {
-  display: grid;
+  display: flex;
   justify-content: center;
-  grid-template-columns: minmax($cardWidth, 1fr);
+  grid-template-columns: $cardWidth;
   gap: 48px;
 
   @include responsive(2, 488);

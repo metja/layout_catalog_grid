@@ -1,7 +1,9 @@
 @mixin responsive($quantityRepeats, $minWidth) {
 
   @media (min-width: #{$minWidth}px) {
+
     grid-template-columns: repeat($quantityRepeats, $cardWidth);
+
   }
 
 }
